@@ -8,7 +8,7 @@ _A Collage of Training images_
 
 We have added a very 'smal' Coco sample imageset in the folder called smalcoco. This is to make sure you can run it without issues on Colab.
 
-Full credit goes to [theschoolofai](https://github.com/theschoolofai/YoloV3), and if you are looking for much more detailed explainiation and features, please refer to the original [source](https://github.com/ultralytics/yolov3). 
+Full credit goes to [The School of AI](https://github.com/theschoolofai/YoloV3), and if you are looking for much more detailed explainiation and features, please refer to the original [source](https://github.com/ultralytics/yolov3). 
 
 You'll need to download the weights from the original source. 
 1. Create a folder called weights in the root (YoloV3) folder
