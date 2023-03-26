@@ -64,7 +64,7 @@ randall
 9. For COCO's 80 classes, VOLOv3's output vector has 255 boo 2 & dimensions ( (4+1+80)*3). Now we have 1 class, so we would need to change it's architecture.
 10. Copy the contents of 'yolov3-spp.cfg' file to a new file called 'yolov3-custom.cfg' file in the data/cfg folder. 
 11. Search for 'filters=255' (you should get entries entries). Change 255 to 27 = (4+1+4)*3
-12. Search for 'classes=80' and change all three entries to 'classes=1'
+12. Search for 'classes=80' and change all three entries to 'classes=4'
 13. Since you are lazy (probably), you'll be working with very few samples. In such a case it is a good idea to change:
   * burn_in to 100
   * max_batches to 5000
